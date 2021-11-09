@@ -26,6 +26,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/css/searchbar.css" rel="stylesheet" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet" />
@@ -166,22 +167,7 @@
 
         </p>
       </div>
-      <form method="post" action="#" class="input-group my-3 d-flex border border-primary border-2 rounded"
-        style="line-height: 2em; overflow: hidden">
-        <input type="text" class="form-contro px-3" style="
-              flex-grow: 1;
-              outline: hidden;
-              border: hidden;
-              font-size: 15px;
-              color: rgb(7, 50, 177);
-            " placeholder="Faites une recherche" aria-label="Recipient's username" aria-describedby="basic-addon2" />
-        <button type="submit" class="input-group-text alert-success" id="basic-addon2">
-          <i class="bi bi-search"></i>
-        </button>
-        <button type="reset" class="input-group-text alert-danger" id="basic-addon2">
-          <span class="bi bi-close text-danger">x</span>
-        </button>
-      </form>
+     
     </div>
   </div>
 
@@ -389,9 +375,9 @@
             <!-- <a href="about.html" class="btn-learn-more mx-5">Learn More</a>-->
           </div>
         </div>
-        <p style="text-align: justify; " class=" p-2 rounded alert-dark">
-          Ses organes de gestion sont le <strong class="text-primary">Conseil d'administration</strong>, le <strong class="text-info"></strong>, 
-de métrologie et de gestion de la qualité, la Direction générale et le Comité de direction. La 
+        <p style="text-align: justify; " class=" p-3 rounded alert-dark shadow-sm">
+          Ses organes de gestion sont le <strong class="text-primary">Conseil d'administration</strong>, le <strong class="text-info">Conseil national de normalisation</strong>, 
+de métrologie et de gestion de la qualité, la <strong class="text-danger">Direction générale</strong> et le <strong class="text-success">Comité de direction</strong>. La 
 Direction générale de l'agence comprend quatre directions techniques et six régions de 
 l’infrastructure qualité (RIQ).
 
@@ -594,10 +580,12 @@ l’infrastructure qualité (RIQ).
         <div class="section-title">
           <h2>Services</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-            ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-            quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-            Quia fugiat sit in iste officiis commodi quidem hic quas.
+            Nous nous adressons à tous types d’entités, 
+entreprises/Sociétés, associations, tous secteurs confondus. Par le biais de 
+notre positionnement en tant qu’accréditeur, nous avons une réelle expertise 
+et connaissance de votre secteur d’activité.
+
+
           </p>
         </div>
 
@@ -678,7 +666,18 @@ l’infrastructure qualité (RIQ).
             également un pré-audit dit "à blanc" pour vous préparer à l'audit
             de certification et être prêt le jour J.
           </p>
-          <a href="" class="btn btn-outline-primary my-3 mx-auto rounded-pill">Demander une acréditation.</a>
+          <p class="py-2">
+            La certification est l’assurance écrite donnée par un tiers que les exigences d’une 
+norme sont respectées.
+
+          </p>
+          <p class="py-2">
+            Le CACeB a élaboré un certain nombre de normes à l’usage des Sociétés pour 
+garantir la légitimité de leurs certificats.
+
+
+          </p>
+      <!--   <a href="" class="btn btn-outline-primary my-3 mx-auto rounded-pill">Demander une acréditation.</a>--> 
         </div>
         <!--
         <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -806,6 +805,35 @@ l’infrastructure qualité (RIQ).
             </div>
           </div>
         </div>-->
+      </div>
+    </section>
+    <section class="container-fluid bg-dark p-4">
+      <div class="container">
+        <form method="post" action="#" class="input-group my-3 d-flex border border-primary border-2 rounded"
+        style="line-height: 2em; overflow: hidden">
+        <input type="text" class="form-contro px-3" style="
+              flex-grow: 1;
+              outline: hidden;
+              border: hidden;
+              font-size: 15px;
+              color: rgb(7, 50, 177);
+            " placeholder="Faites une recherche" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+        <button type="submit" class="input-group-text alert-success" id="basic-addon2">
+          <i class="bi bi-search"></i>
+        </button>
+        <button type="reset" class="input-group-text alert-danger" id="basic-addon2">
+          <span class="bi bi-close text-danger">x</span>
+        </button>
+      </form>
+      </div>
+      <div class="container">
+        <form action="" class="search-form">
+          <input type="text" class="search-input" placeholder="Search">
+          <ul class="suggestions">
+            <li>Filter for city</li>
+            <li>or state</li>
+          </ul>
+        </form>
       </div>
     </section>
     <!-- End Portfolio Section -->
@@ -944,7 +972,7 @@ l’infrastructure qualité (RIQ).
           </div>
         </div>
       </section>-->
-    <!-- End Team Section -->
+    <!-- End Team Section 
     <section id="faqs" class="container-fluid section-bg">
       <div class="section-title col-12">
         <h2>FAQS</h2>
@@ -1041,7 +1069,7 @@ l’infrastructure qualité (RIQ).
           <img src="assets/img/faqs.jpg" alt="" class="img-fluid w-100 rounded shadow-sm" />
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- ======= Pricing Section ======= 
     <section id="pricing" class="pricing">
@@ -1498,6 +1526,7 @@ l’infrastructure qualité (RIQ).
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/searchbar.js"></script>
   <script>
     var url =
       "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?50434";

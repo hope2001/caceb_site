@@ -1,0 +1,14 @@
+[
+    {
+    "name":"Afghanistan",
+    "phoneCode":"+93",
+    "capital":"Kabul",
+    "abbr":"AFG"
+    },
+    {
+    "name":"Albania",
+    "phoneCode":"+355",
+    "capital":"Tirana",
+    "abbr":"ALB"
+    } 
+ ]
