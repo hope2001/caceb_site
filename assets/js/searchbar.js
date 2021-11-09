@@ -27,9 +27,9 @@ function displayMatches() {
     const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
     
     return `
-      <li class="d-flex flex-column p-2 col-6 card alert-dark">
-        <span class="name"> <span class="text-danger "> ${cityName}</span>,<span class="text-succes"> ${stateName}</span></span>
-        <span class="population text-warning">${place.population}</span>
+      <li class="d-flex flex-column p-2 col-3 card alert-dark m-3">
+        <span class="name"> <span class="text-danger "> ${cityName}</span>,<span class="text-success"> ${stateName}</span></span>
+        <span class="population text-info">${place.population}</span>
       </li>
     `;
   }).join('');
