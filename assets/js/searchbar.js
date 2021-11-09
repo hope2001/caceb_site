@@ -23,7 +23,7 @@ function displayMatches() {
   const html = matchArray.map(place => {
     
     const regex = new RegExp(this.value, 'gi');
-    const socity_name = place.city.replace(regex, `<span class="highlight">${this.value}</span>`);
+    const socity_name = place.socity.replace(regex, `<span class="highlight">${this.value}</span>`);
     const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
     
     return `
@@ -31,7 +31,7 @@ function displayMatches() {
         <span class="name"> <span class="text-danger "> ${socity_name}</span>,<span class="text-success"> ${stateName}</span></span>
         <span class="population text-info">${place.population}</span>
         <span class="population text-primary">${place.Description}</span>
-        <a href="#" class="population text-primary">${place.Description}</a>
+        <a href="#" class="population text-primary btn btn-secondary">${place.website}</a>
       </li>
     `;
   }).join('');
