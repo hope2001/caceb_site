@@ -6,7 +6,8 @@
         "longitude": -74.0059413, 
         "population": "8405837", 
         "rank": "1", 
-        "state": "Bénin"
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1"
     },  
     {
         "city": "STPCI Sarl", 
@@ -15,7 +16,8 @@
         "longitude": -74.0059413, 
         "population": "8405837", 
         "rank": "1", 
-        "state": "New York"
+        "state": "New York",
+        "Description": "Je sais pas quoi mettre2"
     },
     {
         "city": "STPCo Sarl", 
@@ -24,7 +26,8 @@
         "longitude": -74.0059413, 
         "population": "8405837", 
         "rank": "1", 
-        "state": "New York"
+        "state": "New York",
+        "Description": "Je sais pas quoi mettre3"
     }
 
 ]
