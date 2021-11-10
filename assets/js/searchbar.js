@@ -68,23 +68,9 @@ function displayMatches() {
   
 }
 
-
 const searchInput = document.querySelector('.search-input');
 const suggestions = document.querySelector('.suggestions');
 
-/*searchInput.addEventListener('change', displayMatches);
-searchInput.addEventListener('keyup', displayMatches);*/
-
-
-searchInput.addEventListener('change', function () {
-    if (this.value = '') {
-        suggestions.innerHTML = '';
-    } else {
-        
-        /*searchInput.addEventListener('change', displayMatches);*/
-        searchInput.addEventListener('keyup', displayMatches);
-    }
-});
+searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
-
 
