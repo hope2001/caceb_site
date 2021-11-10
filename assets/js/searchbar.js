@@ -15,8 +15,8 @@ function findMatches(keyword, cities) {
     const regex = new RegExp(keyword, 'gi');
     return place.socity.match(regex) || place.state.match(regex)
   });
-}const matchArray = findMatches(this.value, cities)
-alert( matchArray + 'test')
+}
+
 // add results to HTML li
 function displayMatches() {
   const matchArray = findMatches(this.value, cities)
@@ -59,7 +59,7 @@ function displayMatches() {
     `;
   }).join('');
   
-  if (matchArray !== 0) {
+  if (html !== '') {
     suggestions.innerHTML = html;
   } else {
     suggestions.innerHTML = 'Ooops aucun résultat';
