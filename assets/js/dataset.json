@@ -72,7 +72,55 @@
         "website":"www.google.com"
     },
     {
-        "socity": "SCACU Groupement",
+        "socity": "EE BTP / EBR Sarl",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "TEB",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CERAB",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "LOGIC",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "ENERGIE DIEU-DONNE",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "LA LICORNE",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "J",
         "logo": "assets/img/faqs.jpg",
         "identifier": "8405837",  
         "state": "Bénin",
