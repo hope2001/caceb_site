@@ -15,8 +15,8 @@ function findMatches(keyword, cities) {
     const regex = new RegExp(keyword, 'gi');
     return place.socity.match(regex) || place.state.match(regex)
   });
-}
-
+}const matchArray = findMatches(this.value, cities)
+alert( matchArray + 'test')
 // add results to HTML li
 function displayMatches() {
   const matchArray = findMatches(this.value, cities)
