@@ -59,8 +59,13 @@ function displayMatches() {
     `;
   }).join('');
   
-  suggestions.innerHTML = html;
-  suggestions.innerHTML = 'Ooops aucun résultat';
+  if (html.length !== null) {
+    suggestions.innerHTML = html;
+  } else {
+    suggestions.innerHTML = 'Ooops aucun résultat';
+  }
+  
+  
 }
 
 const searchInput = document.querySelector('.search-input');
