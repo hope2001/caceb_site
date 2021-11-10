@@ -48,12 +48,13 @@ function displayMatches() {
           />
         </div>
         <div class="member-info">
-          <h4>Walter White</h4>
-          <span>Chief Executive Officer</span>
+          <h4>${socity_name}</h4>
+          <span>${place.identifier}</span>
           <p>
-            Explicabo voluptatem mollitia et repellat qui dolorum quasi
+          ${place.Description}
           </p>
           <div class="social">
+            <a href="${place.website}"><i class="ri-web-fill">${place.website}</i></a>
             <a href=""><i class="ri-twitter-fill"></i></a>
             <a href=""><i class="ri-facebook-fill"></i></a>
             <a href=""><i class="ri-instagram-fill"></i></a>
