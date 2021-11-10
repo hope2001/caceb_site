@@ -20,7 +20,8 @@ function findMatches(keyword, cities) {
 // add results to HTML li
 function displayMatches() {
   const matchArray = findMatches(this.value, cities)
-  const html = matchArray.map(place => {
+  const html 
+    html = matchArray.map(place => {
     
     const regex = new RegExp(this.value, 'gi');
     const socity_name = place.socity.replace(regex, `<span class="highlight">${this.value}</span>`);
