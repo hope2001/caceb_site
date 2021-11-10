@@ -168,10 +168,42 @@
         "website":"www.google.com"
     },
     {
-        "socity": "CGE",
+        "socity": "OUMAROU KANAZOE",
         "logo": "assets/img/faqs.jpg",
         "identifier": "8405837",  
         "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CRN 5IG",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CCRSGC",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CHINOHYPROCORPO",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "CHINE",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CGGC",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "CHINE",
         "Description": "Je sais pas quoi mettre1",
         "website":"www.google.com"
     },
