@@ -79,10 +79,10 @@ if (searchInput !=='') {
     searchInput.addEventListener('change', displayMatches);
     searchInput.addEventListener('keyup', displayMatches);
 } else {
-    searchInput.addEventListener('change', cleaner);
+    searchInput.addEventListener('change', displayMatches);
     searchInput.addEventListener('keyup', cleaner);
 }
 
-searchInput.addEventListener('change', displayMatches);
-searchInput.addEventListener('keyup', displayMatches);
+/*searchInput.addEventListener('change', displayMatches);
+searchInput.addEventListener('keyup', displayMatches);*/
 
