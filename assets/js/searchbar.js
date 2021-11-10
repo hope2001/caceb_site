@@ -69,16 +69,18 @@ function displayMatches() {
 }
 
 function cleaner(){
-    const suggestions = document.querySelector('.suggestions');
+    const suggestions = document.querySelector('.suggestions').innerHTML = "";
 }
 
 const searchInput = document.querySelector('.search-input');
  suggestions = document.querySelector('.suggestions');
 
-if (searchInput ==="") {
-    
+if (searchInput !=='') {
+    searchInput.addEventListener('change', displayMatches);
+    searchInput.addEventListener('keyup', displayMatches);
 } else {
-    
+    searchInput.addEventListener('change', cleaner);
+    searchInput.addEventListener('keyup', cleaner);
 }
 
 searchInput.addEventListener('change', displayMatches);
