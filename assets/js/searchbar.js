@@ -27,13 +27,6 @@ function displayMatches() {
     const stateName = place.state.replace(regex, `<span class="hl">${this.value}</span>`);
     
     return `
-      <li class="d-flex flex-column p-2 col-4 card alert-warnin border border-danger border-2 m-1 shadow">
-        <span class="name my-1"> <span class="text-danger "> <strong class="text-dark">Nom:</strong> ${socity_name}</span>,<span class="text-success"> <strong class="text-dark">Pays:</strong> ${stateName}</span></span>
-        <span class="population text-info"> <strong class="text-dark">Identifiant:</strong>  ${place.identifier}</span>
-        <span class="population "> <strong class="text-dark">Description:</strong>  ${place.Description}</span>
-        <a href="#" class="population  btn btn-secondary my-3">${place.website}</a>
-      </li>
-
       <div class="col-lg-6">
       <div
         class="member d-flex align-items-start"
@@ -54,7 +47,7 @@ function displayMatches() {
           ${place.Description}
           </p>
           <div class="social">
-            <a href="${place.website}"><i class="ri-web-fill">${place.website}</i></a>
+            <a href="${place.website}"><i class="ri-google-plus-fill"></i></a>
             <a href=""><i class="ri-twitter-fill"></i></a>
             <a href=""><i class="ri-facebook-fill"></i></a>
             <a href=""><i class="ri-instagram-fill"></i></a>
