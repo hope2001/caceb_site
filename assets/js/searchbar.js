@@ -68,6 +68,10 @@ function displayMatches() {
   
 }
 
+function cleaner(){
+    
+}
+
 const searchInput = document.querySelector('.search-input');
 const suggestions = document.querySelector('.suggestions');
 
