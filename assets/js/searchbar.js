@@ -31,7 +31,7 @@ function displayMatches() {
         <span class="name my-1"> <span class="text-danger "> <strong class="text-dark">Nom:</strong> ${socity_name}</span>,<span class="text-success"> <strong class="text-dark">Pays:</strong> ${stateName}</span></span>
         <span class="population text-info"> <strong class="text-dark">Identifiant:</strong>  ${place.identifier}</span>
         <span class="population "> <strong class="text-dark">Description:</strong>  ${place.Description}</span>
-        <a href="#" class="population  btn btn-secondary">${place.website}</a>
+        <a href="#" class="population  btn btn-secondary my-3">${place.website}</a>
       </li>
     `;
   }).join('');
