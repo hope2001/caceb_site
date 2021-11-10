@@ -47,7 +47,7 @@ function displayMatches() {
           ${place.Description}
           </p>
           <div class="social">
-            <a href="${place.website}"><i class="ri-google-plus-fill"></i></a>
+            <a href="${place.website}"><i class="ri-google-plus"></i></a>
             <a href=""><i class="ri-twitter-fill"></i></a>
             <a href=""><i class="ri-facebook-fill"></i></a>
             <a href=""><i class="ri-instagram-fill"></i></a>
