@@ -120,7 +120,55 @@
         "website":"www.google.com"
     },
     {
-        "socity": "J",
+        "socity": "JUSTHA GROUP SARL",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "ZENITH SERVICE",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "MAYARICK",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "MMC-TOGO",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "TOGO",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CHAABANE",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CGE",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CGE",
         "logo": "assets/img/faqs.jpg",
         "identifier": "8405837",  
         "state": "Bénin",
