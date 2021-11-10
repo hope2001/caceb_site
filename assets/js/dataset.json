@@ -1,17 +1,43 @@
 [
     {
         "socity": "SIGMA 2-SA",
-        "logo": "assets/img/team/team-1.jpg",
+        "logo": "assets/img/faqs.jpg",
         "identifier": "8405837",  
         "state": "Bénin",
         "Description": "Je sais pas quoi mettre1",
         "website":"www.google.com"
     },
     {
-        "socity": "SIPA 2-SA",
+        "socity": "STPCI Sarl",
+        "logo": "assets/img/faqs.jpg",
         "identifier": "8405837",  
         "state": "Bénin",
         "Description": "Je sais pas quoi mettre1",
         "website":"www.google.com"
-    }
+    },
+    {
+        "socity": "COLAS",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CERAB TP",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    {
+        "socity": "CERAB TP",
+        "logo": "assets/img/faqs.jpg",
+        "identifier": "8405837",  
+        "state": "Bénin",
+        "Description": "Je sais pas quoi mettre1",
+        "website":"www.google.com"
+    },
+    
 ]
