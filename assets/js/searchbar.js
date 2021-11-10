@@ -59,7 +59,7 @@ function displayMatches() {
     `;
   }).join('');
   
-  if (html !== '') {
+  if (html.value !== ''|| html) {
     suggestions.innerHTML = html;
   } else {
     suggestions.innerHTML = 'Ooops aucun résultat';
