@@ -60,6 +60,7 @@ function displayMatches() {
   }).join('');
   
   suggestions.innerHTML = html;
+  suggestions.innerHTML = 'Ooops aucun résultat';
 }
 
 const searchInput = document.querySelector('.search-input');
