@@ -28,9 +28,9 @@ function displayMatches() {
     
     return `
       <li class="d-flex flex-column p-2 col-4 card alert-warning border border-danger border-2 m-1 shadow">
-        <span class="name my-1"> <span class="text-danger "> ${socity_name}</span>,<span class="text-success"> ${stateName}</span></span>
-        <span class="population text-info">${place.identifier}</span>
-        <span class="population ">${place.Description}</span>
+        <span class="name my-1"> <span class="text-danger "> Nom: ${socity_name}</span>,<span class="text-success"> Pays: ${stateName}</span></span>
+        <span class="population text-info"> Identifiant: ${place.identifier}</span>
+        <span class="population "> Description: ${place.Description}</span>
         <a href="#" class="population  btn btn-secondary">${place.website}</a>
       </li>
     `;
