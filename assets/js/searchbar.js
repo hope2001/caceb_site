@@ -69,11 +69,17 @@ function displayMatches() {
 }
 
 function cleaner(){
-    
+    const suggestions = document.querySelector('.suggestions');
 }
 
 const searchInput = document.querySelector('.search-input');
-const suggestions = document.querySelector('.suggestions');
+ suggestions = document.querySelector('.suggestions');
+
+if (searchInput ==="") {
+    
+} else {
+    
+}
 
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
