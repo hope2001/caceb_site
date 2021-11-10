@@ -41,7 +41,7 @@ function displayMatches() {
           />
         </div>
         <div class="member-info">
-          <h4>${socity_name}</h4>
+          <h4>${place.socity}</h4>
           <span>${place.identifier}</span>
           <p>
           ${place.Description}
