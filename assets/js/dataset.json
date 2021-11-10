@@ -5,26 +5,5 @@
         "state": "Bénin",
         "Description": "Je sais pas quoi mettre1",
         "website":"www.google.com"
-    },  
-    {
-        "city": "STPCI Sarl", 
-        "growth_from_2000_to_2013": "4.8%", 
-        "latitude": 40.7127837, 
-        "longitude": -74.0059413, 
-        "population": "8405837", 
-        "rank": "1", 
-        "state": "New York",
-        "Description": "Je sais pas quoi mettre2"
-    },
-    {
-        "city": "STPCo Sarl", 
-        "growth_from_2000_to_2013": "4.8%", 
-        "latitude": 40.7127837, 
-        "longitude": -74.0059413, 
-        "population": "8405837", 
-        "rank": "1", 
-        "state": "New York",
-        "Description": "Je sais pas quoi mettre3"
     }
-
 ]

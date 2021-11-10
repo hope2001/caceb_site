@@ -8,7 +8,7 @@ fetch(endpoint)
     
   .then(blob => blob.json())
   .then(data => cities.push(...data));
-    console.log(endpoint)
+    
 function findMatches(keyword, cities) {
   return cities.filter(place => {
     // does city or state match? use paramater regex
