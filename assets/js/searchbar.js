@@ -21,7 +21,7 @@ function findMatches(keyword, cities) {
 function displayMatches() {
   const matchArray = findMatches(this.value, cities)
   var html 
-   if(document.querySelector('.search-input').value = '')
+   if(document.querySelector('.search-input').value == '')
    {
        html = ''
    }
