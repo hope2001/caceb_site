@@ -76,8 +76,12 @@ searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
 
 
-searchInput.addEventListener('change', function name(params) {
-    
+searchInput.addEventListener('change', function () {
+    if (condition) {
+        
+    } else {
+        
+    }
 });
 searchInput.addEventListener('keyup', displayMatches);
 
