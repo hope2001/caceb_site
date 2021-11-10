@@ -77,8 +77,8 @@ searchInput.addEventListener('keyup', displayMatches);
 
 
 searchInput.addEventListener('change', function () {
-    if (document.querySelector('.search-input').value = '') {
-        
+    if (this.value = '') {
+        suggestions.innerHTML = '';
     } else {
         
     }
