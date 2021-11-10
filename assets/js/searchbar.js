@@ -13,7 +13,7 @@ function findMatches(keyword, cities) {
   return cities.filter(place => {
     // does city or state match? use paramater regex
     const regex = new RegExp(keyword, 'gi');
-    return place.city.match(regex) || place.state.match(regex)
+    return place.socity.match(regex) || place.state.match(regex)
   });
 }
 
