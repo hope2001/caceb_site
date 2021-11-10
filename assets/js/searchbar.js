@@ -70,7 +70,6 @@ function displayMatches() {
   
   if (html !== ''|| html == !null) {
     suggestions.innerHTML = html;
-    alert(html)
   } else {
     suggestions.innerHTML = 'Ooops aucun résultat';
   }
