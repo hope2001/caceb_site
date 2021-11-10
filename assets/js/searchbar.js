@@ -59,8 +59,9 @@ function displayMatches() {
     `;
   }).join('');
   
-  if (html.value !== ''|| html) {
+  if (html !== ''|| html == !null) {
     suggestions.innerHTML = html;
+    alert(html)
   } else {
     suggestions.innerHTML = 'Ooops aucun résultat';
   }
