@@ -59,7 +59,7 @@ function displayMatches() {
     `;
   }).join('');
   
-  if (cities.length !== 0) {
+  if (matchArray !== 0) {
     suggestions.innerHTML = html;
   } else {
     suggestions.innerHTML = 'Ooops aucun résultat';
