@@ -71,7 +71,7 @@ function displayMatches() {
   if (html !== ''|| html == !null) {
     suggestions.innerHTML = html;
   } else {
-    suggestions.innerHTML = 'Ooops aucun résultat';
+    suggestions.innerHTML = 'Aucun résultat à afficher';
   }
   
   
