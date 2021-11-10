@@ -72,8 +72,8 @@ function displayMatches() {
 const searchInput = document.querySelector('.search-input');
 const suggestions = document.querySelector('.suggestions');
 
-searchInput.addEventListener('change', displayMatches);
-searchInput.addEventListener('keyup', displayMatches);
+/*searchInput.addEventListener('change', displayMatches);
+searchInput.addEventListener('keyup', displayMatches);*/
 
 
 searchInput.addEventListener('change', function () {
@@ -81,6 +81,8 @@ searchInput.addEventListener('change', function () {
         suggestions.innerHTML = '';
     } else {
         
+        searchInput.addEventListener('change', displayMatches);
+        searchInput.addEventListener('keyup', displayMatches);
     }
 });
 searchInput.addEventListener('keyup', displayMatches);
