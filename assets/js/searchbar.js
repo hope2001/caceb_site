@@ -81,7 +81,7 @@ searchInput.addEventListener('change', function () {
         suggestions.innerHTML = '';
     } else {
         
-        searchInput.addEventListener('change', displayMatches);
+        /*searchInput.addEventListener('change', displayMatches);*/
         searchInput.addEventListener('keyup', displayMatches);
     }
 });
