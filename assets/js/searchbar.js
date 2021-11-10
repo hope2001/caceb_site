@@ -20,7 +20,11 @@ function findMatches(keyword, cities) {
 // add results to HTML li
 function displayMatches() {
   const matchArray = findMatches(this.value, cities)
-  const html 
+  var html 
+   if()
+   {}
+   else
+   {}
     html = matchArray.map(place => {
     
     const regex = new RegExp(this.value, 'gi');
