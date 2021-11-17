@@ -53,8 +53,8 @@ function displayMatches() {
               <p>
               ${place.Description}
               </p>
-              <ul>
-                <li>${place.accr}</li>
+              
+                <>${place.accr}
               
               
               </ul>
