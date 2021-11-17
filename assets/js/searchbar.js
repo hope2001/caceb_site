@@ -53,16 +53,8 @@ function displayMatches() {
               <p>
               ${place.Description}
               </p>
-              <p>
-              
+              <p class="text-primary">
                 ${place.accr}
-                `+ 
-                if (place.accr) {
-                  
-                } else {
-                  
-                }
-                +`
               
               
               </p>
