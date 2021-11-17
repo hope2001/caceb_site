@@ -56,7 +56,13 @@ function displayMatches() {
               <p>
               
                 ${place.accr}
-                ${if}
+                `+ 
+                if (place.accr) {
+                  
+                } else {
+                  
+                }
+                +`
               
               
               </p>
