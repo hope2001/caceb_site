@@ -53,11 +53,13 @@ function displayMatches() {
               <p>
               ${place.Description}
               </p>
+              <p>
               
-                <>${place.accr}
+                ${place.accr}
+                ${if}
               
               
-              </ul>
+              </p>
               
               <div class="social">
                 <a href="${place.website}"><i class="ri-google-fill"></i></a>
