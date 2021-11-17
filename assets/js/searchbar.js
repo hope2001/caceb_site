@@ -53,6 +53,12 @@ function displayMatches() {
               <p>
               ${place.Description}
               </p>
+              <ul>
+                <li>${place.accr}</li>
+              
+              
+              </ul>
+              
               <div class="social">
                 <a href="${place.website}"><i class="ri-google-fill"></i></a>
                 <a href=""><i class="ri-twitter-fill"></i></a>
