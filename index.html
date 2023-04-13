@@ -650,7 +650,16 @@
             Veuillez entrer le nom d'une structure pour verifier si elle est agréée .
           </p>
 
-          <form method="post" action="#"
+          <div
+            class=" row search-form input-group my-3 d-flex rounded"
+            style="line-height: 2em; overflow: hidden">
+            
+<div class="input-group input-group-lg col-lg-8 col-md-8 col-sm-12">
+  <span class="input-group-text" id="inputGroup-sizing-lg"> <i class="bi bi-search"></i> </span>
+  <input id="barRecherche" placeholder="Recherchez une société" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+</div>
+          </div>
+          <!-- <form method="post" action="#"
             class="  search-forminput-group my-3 d-flex border border-primary border-2 rounded"
             style="line-height: 2em; overflow: hidden">
             <input type="text" class="search-input form-contro px-3" style="
@@ -661,13 +670,13 @@
                     color: rgb(7, 50, 177);
                   " placeholder="Recherchez une société" aria-label="Recipient's username"
               aria-describedby="basic-addon2" />
-            <!--<button type="submit" class="input-group-text alert-success" id="basic-addon2">
+            --<button type="submit" class="input-group-text alert-success" id="basic-addon2">
                 <i class="bi bi-search"></i>
-              </button>-->
+              </button>--
             <button type="reset" class="input-group-text alert-danger" id="basic-addon2">
               <a href="https://caceb.000webhostapp.com/" class="bi bi-close text-danger">x</a>
             </button>
-          </form>
+          </form> -->
           <!--  <ul class="suggestions bg-light d-flex row mx-auto rounded" style="list-style: none;">
            
               
@@ -675,7 +684,7 @@
                 <li class="col-6 alert-warning shadow-sm ">Filter for city</li>
               <li class="col-6 alert-info shadow-sm">or state</li> 
             </ul>-->
-        <div class="row suggestions ">
+        <div id="SearchResult" class="row suggestions ">
 
 
 
@@ -813,7 +822,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/searchbar.js"></script>
+  <!-- <script src="assets/js/searchbar.js"></script> -->
+  <script src="assets/js/dataSet.js"></script>
   <script>
     var url =
       "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?50434";
