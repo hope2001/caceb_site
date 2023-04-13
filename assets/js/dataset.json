@@ -200,19 +200,6 @@
             "(Batiments, Voiries et Réseau Divers, Assainissement, Eau Potable, Energie, Environement )<br><br>- Dans la section Gestion Environementale  selon la norme <strong>NF EN ISO 14001 :2014 sous le numero 1-10984 </strong>       <br><br>"
         ],
         "website":"#"
-    },
-        {
-        "socity": "ESE2i SARL",
-        "logo": "assets/img/faqs.jpg",
-        "identifier": "Est accréditée",  
-        "state": "Bénin",
-        "Description": "Dans les Activités : Énergies - Réseaux Télécom et Électrique : ",
-        "accr": [
-            "(-  la section Assurance Qualité) <br/> <br/> selon la norme <strong> NF EN ISO 9001/CEI 17025 sous le Numéro : 1-8955 </strong>. <br/> <br/>",
-            "(- la section Gestion Environnementale) <br/> <br/> selon selon la norme <strong> NF EN ISO 14001 sous le Numéro : 1-6875 </strong>. <br/> <br/>"
-            "(- la section Hygiène, Santé et Sécurité) <br/> <br/> selon selon la norme <strong> NF EN ISO 45001 sous le Numéro : 1-0689 </strong> . <br/> <br/>"
-        ],
-        "website":"#"
     }
     
 ]
